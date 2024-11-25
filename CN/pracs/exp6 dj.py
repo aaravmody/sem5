@@ -27,9 +27,9 @@ def Dikstra():
     for i in range(0,n):
         u=extract_min()
 
-        for j in range(0,n):
-            if(graph[u][j]!=0 and visited[j]!=1):
-                relax(u,j)
+        for v in range(0,n):
+            if(graph[u][v]!=0 and visited[v]!=1):
+                relax(u,v)
         visited[u]=1
 
 Dikstra()
