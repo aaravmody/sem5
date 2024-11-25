@@ -13,7 +13,7 @@ def iseven(a):
         return '0'
     return '1'
 
-p1=iseven(int(d3)+int(d5)+int(d7))
+p1=iseven(int(d3)+int(d5)+int(d7)+int(d9))
 p2=iseven(int(d3)+int(d6)+int(d7))
 p4=iseven(int(d5)+int(d6)+int(d7))
 p8=iseven(int(d9))
